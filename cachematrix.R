@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 ## makeCacheMatrix creates a list of 4 functions that do the following:
 ## set - stores a given matrix
 ## get - returns the stored matrix
@@ -38,8 +34,5 @@ cacheSolve <- function(x, ...) {
         Inv <- solve(data, ...)
         x$setInverse(Inv)
         Inv
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
+
