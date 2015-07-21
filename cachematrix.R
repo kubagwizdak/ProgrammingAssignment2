@@ -19,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-
 ## cacheSolve checks if the inverse of the matrix returned by makeCacheMatrix 
 ## is being stored in makeCacheMatrix. If so - it returns it, otherwise 
 ## cacheSolve computes the image by herself.
@@ -35,4 +34,3 @@ cacheSolve <- function(x, ...) {
         x$setInverse(Inv)
         Inv
 }
-
